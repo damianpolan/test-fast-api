@@ -2,6 +2,9 @@ from typing import Optional
 
 from fastapi import FastAPI
 
+from src.processing_stages.uploader import processAndUpload
+
+
 app = FastAPI()
 
 
